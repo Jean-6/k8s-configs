@@ -14,5 +14,19 @@ spec:
     path: "/mnt/data"
   PersistenceVolumeReclaimPolicy: Retain
 
+
 ---
 
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mariadb-pvc
+  labels: 
+    app: kotlin-api-mariadb
+spec:
+  storageClassName: standard
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 250Mi

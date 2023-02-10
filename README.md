@@ -10,3 +10,5 @@ step1 : Creation de notre fichier secrets.yaml et mettons y la configuration de 
         Ces derniers nous permettent de stocker et de gérer des informations sensibles de manière sécurisée.
 
 step2 : Creation d'un volume de persistance PV (partie de stockage dans le cluster)
+
+step3 : Demande de stockage PVC (PersistentVolumeClaim)  
