@@ -9,5 +9,4 @@ La preparation de notre environnement kubernetes se deroulera à travers les ste
 step1 : Creation de notre fichier secrets.yaml et mettons y la configuration de nos secrets .
         Ces derniers nous permettent de stocker et de gérer des informations sensibles de manière sécurisée.
 
-
-step2 : Creation du Dockerfile pour l'image de notre app .  
+step2 : Creation d'un volume de persistance PV (partie de stockage dans le cluster)
